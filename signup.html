@@ -1,0 +1,103 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+
+	
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Perles de Luxe </title>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<div class="nav-area">
+			<input type="checkbox" id="box">
+			<label for="box" class="btn-area"><i class="fa fa-bars"></i></label>
+			<ul class="custom-navbar-nav">
+			  <li><a href="index.html">Accueil</a></li>
+			  <li><a href="about.html">À propos</a></li>
+			  <li><a href="services.html">Services</a></li>
+			  <li><a href="faq.html">FAQ</a></li>
+			  <li><a href="contact.html">Contactez-nous</a></li>
+			  <li><a href="register.html">Connexion</a></li>
+			  <li><a href="signup.html">Inscription</a></li>
+
+			</ul>
+		  
+		</div>
+		<!-- End Header/Navigation -->
+<!-- loader -->
+<div class="loader"></div>
+<!-- endloader -->
+        <!-- start login section -->
+		<section class="mycontainer forms">
+           
+            <!-- Signup Form -->
+            <div class="form signup">
+                <div class="form-content">
+                    <header>S'inscrire</header>
+                    <form action="#" onsubmit="return validateSignupForm()">
+                        <div class="field input-field">
+                            <input type="email" id="signupEmail" placeholder="Email" class="input">
+                            <div id="signupEmailError" class="signuperror"></div>
+                        </div>
+                        <div class="field input-field">
+                            <input type="password" id="signupPassword" placeholder="Créer un mot de passe" class="password">
+                            <div id="signupPasswordError" class="signuperror"></div>
+                        </div>
+                        <div class="field input-field">
+                            <input type="password" id="confirmPassword" placeholder="Confirmer le mot de passe" class="password">
+                            <div id="confirmPasswordError" class="signuperror"></div>
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class="field button-field">
+                            <button>S'inscrire</button>
+                            <div id="signupSuccess" class="signupsuccess"></div>
+                        </div>
+                    </form>
+                    <div class="form-link">
+                        <span>Déjà un compte? <a href="register.html" class="link login-link">Connexion</a></span>
+                    </div>
+                </div>
+                <div class="line"></div>
+                
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="images/google.png" alt="" class="google-img">
+                        <span>Connexion avec Google</span>
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+        <!-- end login section -->
+
+   
+
+		<!-- Start Footer Section -->
+		<div id="copy-right">
+            <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+                Copyright 2024 Tous droits réservés Tous droits réservés par Souhaib,Yacine et Mohammed
+      
+      
+            </div>
+      
+        </div>
+		<!-- End Footer Section -->	
+
+
+
+		
+	</body>
+
+</html>
+<script src="js/signup_validation.js"></script>
+<script src="js/loader.js"></script>
