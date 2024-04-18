@@ -61,6 +61,17 @@ Ce bloc de code stylise la section de pied de page, y compris la couleur de fond
 Le CSS pour une section de questions fréquemment posées est défini ici, y compris le style des questions et des réponses.
 
 
+# Validation de Formulaire
+
+Ce script JavaScript permet de valider les données saisies dans un formulaire avant de le soumettre.
+
+## Fonctionnalités
+
+- **Validation des champs** : Vérifie que le nom complet, l'e-mail et le numéro de téléphone respectent les critères définis.
+- **Affichage des erreurs** : Affiche un message d'erreur sous chaque champ en cas de saisie invalide.
+- **Soumission du formulaire** : Envoie le formulaire uniquement si toutes les données sont valides, sinon affiche un message d'erreur.
+
+
 
 
 
