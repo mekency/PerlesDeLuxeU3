@@ -1,6 +1,6 @@
 ### Contribution de Yacine 
 
-Je me suis charge de faire l'HTML  des  pages register, services et signup. ainsi que le CSS des pages register et signup. 
+Je me suis charge de faire l'HTML  des  pages register, services et signup. ainsi que le CSS des pages register et signup.( description et detail dans le projet 1)
 
  Pour la partie 2 de project je me suis charge de JavaScript utilisée pour valider un formulaire d'inscription.
  ![image](https://github.com/mekency/PerlesDeLuxeU3/assets/162185403/76d446b1-286f-4647-b6f6-f1cb347edd42)
@@ -12,5 +12,8 @@ Je me suis charge de faire l'HTML  des  pages register, services et signup. ains
 -  Le mot de passe est vérifié pour s'assurer qu'il n'est pas vide et qu'il a au moins 6 caractères. Si cette condition n'est pas remplie, un message d'erreur est affiché et la fonction retourne false.
 
 -  J'ai ensuite un contrôle pour vérifier que le mot de passe et la confirmation du mot de passe sont identiques. Si les deux ne correspondent pas, j'affiche un message d'erreur et j'indique un échec de validation en retournant false de la fonction.
+
+  ![Screenshot 2024-04-17 215429](https://github.com/mekency/PerlesDeLuxeU3/assets/162185403/2198606c-f5a6-4f57-9fdb-fe1b6c23e5e3)
+
 
 
