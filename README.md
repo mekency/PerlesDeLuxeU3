@@ -73,6 +73,7 @@ Ce script JavaScript permet de valider les données saisies dans un formulaire a
 
 
 
+![Untitled](https://github.com/mekency/PerlesDeLuxeU3/assets/146897394/d0bd8803-6215-4992-9a54-b5388206dc9a)
 
 
 
